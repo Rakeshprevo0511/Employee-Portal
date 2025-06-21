@@ -1,0 +1,52 @@
+﻿@model dotnet_core_MVC.Models.Employee
+
+<div class="container mt-2">
+    <h2 class="mb-4">Add New Employee</h2>
+
+    <form asp-action="ADD_EMP" method="post">
+        <input type="hidden" asp-for="Id" />
+        <div class="row">
+            <div class="col mb-3">
+                <label asp-for="EmpName" class="form-label">Employee Name</label>
+                <input asp-for="EmpName" class="form-control" placeholder="Enter Name" required>
+                <span asp-validation-for="EmpName" class="text-danger"></span>
+            </div>
+
+            <div class="col mb-3">
+                <label asp-for="Position" class="form-label">Position</label>
+                <input asp-for="Position" class="form-control" placeholder="Enter Position" required>
+                <span asp-validation-for="Position" class="text-danger"></span>
+            </div>
+        </div>
+       
+        <div class="row">
+            <div class="col mb-3">
+                <label asp-for="Location" class="form-label">Location</label>
+                <input asp-for="Location" class="form-control" placeholder="Enter Location" required>
+                <span asp-validation-for="Location" class="text-danger"></span>
+            </div>
+
+            <div class=" col mb-3">
+                <label asp-for="Age" class="form-label">Age</label>
+                <input asp-for="Age" type="number" class="form-control" placeholder="Enter Age" required min="18" max="65">
+                <span asp-validation-for="Age" class="text-danger"></span>
+            </div>
+
+            <div class=" col mb-3">
+                <label asp-for="Salary" class="form-label">Salary</label>
+                <input asp-for="Salary" type="number" class="form-control" placeholder="Enter Salary" required>
+                <span asp-validation-for="Salary" class="text-danger"></span>
+            </div>
+            <div class=" col mb-3">
+              
+            </div>
+
+        </div>
+        
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </div>
+      
+    </form>
+</div>

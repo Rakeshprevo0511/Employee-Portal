@@ -1,0 +1,309 @@
+[
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "dotnet_core_MVC.DTO.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.AuthController",
+    "Method": "VerifyOtp",
+    "RelativePath": "api/Auth/verify-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "dotnet_core_MVC.DTO.VerifyOtpModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.UsersController",
+    "Method": "Index",
+    "RelativePath": "api/Users",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.UsersController",
+    "Method": "Details",
+    "RelativePath": "api/Users",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.UsersController",
+    "Method": "Create",
+    "RelativePath": "api/Users",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.UsersController",
+    "Method": "Create",
+    "RelativePath": "api/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "dotnet_core_MVC.Data.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.UsersController",
+    "Method": "Create_emp",
+    "RelativePath": "api/Users",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.UsersController",
+    "Method": "ADD_EMP",
+    "RelativePath": "api/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employee",
+        "Type": "dotnet_core_MVC.Models.Employee",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.UsersController",
+    "Method": "Edit",
+    "RelativePath": "api/Users",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.UsersController",
+    "Method": "Edit",
+    "RelativePath": "api/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "user",
+        "Type": "dotnet_core_MVC.Data.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.UsersController",
+    "Method": "Delete",
+    "RelativePath": "api/Users",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.UsersController",
+    "Method": "DeleteConfirmed",
+    "RelativePath": "api/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.UsersController",
+    "Method": "Test",
+    "RelativePath": "api/Users",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.UsersController",
+    "Method": "Employee",
+    "RelativePath": "api/Users",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.UsersController",
+    "Method": "Employeelist",
+    "RelativePath": "api/Users/employees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.UsersController",
+    "Method": "Getcourse_list",
+    "RelativePath": "api/Users/GetCourse_List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.UsersController",
+    "Method": "SaveEmpCourse",
+    "RelativePath": "api/Users/Save_empCourse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empCourse",
+        "Type": "dotnet_core_MVC.Models.EmployeeCourse",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.UsersController",
+    "Method": "SaveEmp",
+    "RelativePath": "api/Users/SaveEmp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empData",
+        "Type": "dotnet_core_MVC.Models.Employee",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.APIController",
+    "Method": "DeleteUser",
+    "RelativePath": "Apinew/API/empDelete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dotnet_core_MVC.Controllers.APIController",
+    "Method": "Employeelist",
+    "RelativePath": "Apinew/API/GetEmp",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

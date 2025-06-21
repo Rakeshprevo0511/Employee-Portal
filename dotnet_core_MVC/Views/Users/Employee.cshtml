@@ -1,0 +1,42 @@
+﻿<h2>Employee List</h2>
+
+<a asp-action="Create_emp" class="btn btn-primary mb-3">Add Employee</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Location</th>
+            <th>Age</th>
+            <th>Salary</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.Id</td>
+                <td>@employee.EmpName</td>
+                <td>@employee.Position</td>
+                <td>@employee.Location</td>
+                <td>@employee.Age</td>
+                <td>@employee.Salary</td>
+                <td>
+                    <a asp-action="Create_emp" asp-route-id="@employee.Id" class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@employee.Id" class="btn btn-danger btn-sm">Delete</a>
+                    @if (ViewBag.DisableViewButton)
+                    {
+                        <button class="btn btn-info btn-sm" style="visibility: hidden;">View</button>
+                    }
+                    else
+                    {
+                        <a asp-action="View" asp-route-id="@employee.Id" class="btn btn-info btn-sm">View</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
