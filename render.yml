@@ -1,0 +1,9 @@
+﻿services:
+  - type: web
+    name: my-dotnet-api
+    runtime: dotnet
+    repo: https://github.com/Rakeshprevo0511/Employee-Portal
+    branch: main
+    buildCommand: dotnet publish -c Release -o out
+    startCommand: dotnet out/dotnet_core_MVC.dll
+    autoDeploy: true
